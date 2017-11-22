@@ -1,0 +1,269 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #F7F7F7;
+}
+a {
+  text-decoration: none;
+}
+.tourheader {
+  height: 0.6875rem;
+  overflow: hidden;
+}
+.tourheader .location {
+  width: 0.9375rem;
+  line-height: 0.6875rem;
+  text-align: center;
+  font-size: 0.3125rem;
+  color: #D3079E;
+  float: left;
+  position: relative;
+}
+.tourheader .location:after {
+  content: '';
+  position: absolute;
+  top: 0.3125rem;
+  left: 0.78125rem;
+  border: 0.078125rem solid transparent;
+  border-top: 0.078125rem solid #d3079e;
+}
+.tourheader .title {
+  text-align: center;
+  line-height: 0.6875rem;
+  font-size: 0.3125rem;
+  margin: 0 0.703125rem 0 0.9375rem;
+}
+.tourheader .user {
+  float: right;
+  height: 0.6875rem;
+  position: absolute;
+  top: 0.15625rem;
+  right: 0.125rem;
+}
+.tourheader .user a {
+  display: inline-block;
+  width: 100%;
+}
+.tourheader .user a img {
+  width: 0.40625rem;
+  height: 0.40625rem;
+  vertical-align: middle;
+}
+/* 轮播图 */
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+img {
+  width: 100%;
+  vertical-align: middle;
+}
+.swipe {
+  overflow: hidden;
+  visibility: hidden;
+  position: relative;
+}
+.swipe-wrap {
+  overflow: hidden;
+  position: relative;
+}
+.swipe-wrap > li {
+  float: left;
+  width: 100%;
+  position: relative;
+}
+nav {
+  position: relative;
+  overflow: hidden;
+  margin: 0 auto;
+}
+nav .ol {
+  width: 100%;
+  position: absolute;
+  z-index: 10;
+  bottom: 0.078125rem;
+  text-align: center;
+}
+nav .ol .list {
+  height: 0.3125rem;
+  line-height: 0.3125rem;
+  overflow: hidden;
+  text-align: center;
+}
+nav .ol .list li {
+  width: 0.09375rem;
+  height: 0.09375rem;
+  border: 0.015625rem solid #ffffff;
+  background-color: rgba(255, 255, 255, 0.4);
+  display: inline-block;
+  border-radius: 50%;
+  margin-left: 0.15625rem;
+  overflow: hidden;
+}
+nav {
+  width: 100%;
+}
+nav .navlist {
+  margin-top: 0.15625rem;
+  overflow: hidden;
+}
+nav .navlist li {
+  width: 33.3333%;
+  float: left;
+  padding: 0 0.078125rem;
+  margin-bottom: 0.125rem;
+  box-sizing: border-box;
+}
+nav .navlist li a {
+  display: inline-block;
+  width: 100%;
+}
+nav .navlist li a img {
+  vertical-align: middle;
+}
+.ticket ul {
+  width: 100%;
+  overflow: hidden;
+  border-top: 0.015625rem solid #dddddd;
+}
+.ticket ul li {
+  width: 25%;
+  float: left;
+  border-right: 0.015625rem solid #dddddd;
+  border-bottom: 0.015625rem solid #dddddd;
+  box-sizing: border-box;
+}
+.ticket ul li a {
+  display: inline-block;
+  width: 100%;
+}
+.ticket ul li a img {
+  vertical-align: middle;
+}
+.adver ul {
+  width: 100%;
+  padding-top: 0.15625rem;
+  background: #F1F1F1;
+  border-bottom: 0.015625rem solid #dddddd;
+  margin-bottom: 0.234375rem;
+  overflow: hidden;
+}
+.adver ul li {
+  width: 50%;
+  float: left;
+  background: #fff;
+}
+.adver ul li:nth-child(1) {
+  border-right: 0.015625rem solid #dddddd;
+  box-sizing: border-box;
+}
+.adver ul li:last-child {
+  border-top: 0.015625rem solid #dddddd;
+  box-sizing: border-box;
+}
+.adver ul li a {
+  display: inline-block;
+  width: 100%;
+}
+.adver ul li a img {
+  vertical-align: middle;
+}
+.hot {
+  width: 100%;
+  padding: 0 5px;
+}
+.hot p {
+  line-height: 0.46875rem;
+  padding: 0.15625rem 0 0.125rem 0.234375rem;
+}
+.hot ul li {
+  border-bottom: 0.015625rem solid #dddddd;
+}
+.hot ul li a {
+  display: inline-block;
+  width: 100%;
+}
+.hot ul li a img {
+  vertical-align: middle;
+}
+.holiday .hldtitle {
+  width: 100%;
+  height: 0.6875rem;
+}
+.holiday .hldtitle p {
+  width: 50%;
+  height: 0.6875rem;
+  float: left;
+  text-align: center;
+  font-size: 0.21875rem;
+}
+.holiday .hldtitle p span {
+  line-height: 0.6875rem;
+  display: inline-block;
+  padding: 0 0.15625rem;
+}
+.holiday .hldtitle p span.current {
+  border-bottom: 0.03125rem solid #d3079e;
+  color: #D3079E;
+}
+.hldlist .hldimgs {
+  width: 100%;
+  margin-top: 0.03125rem;
+  background: #fff;
+}
+.hldlist .hldimgs li {
+  width: 100%;
+  background-color: #fff;
+  margin-bottom: 0.15625rem;
+}
+.hldlist .hldimgs li a {
+  display: inline-block;
+  width: 100%;
+}
+.hldlist .hldimgs li a img {
+  vertical-align: middle;
+}
+.hldlist .hldimgs li span {
+  display: block;
+  width: 100%;
+  line-height: 0.546875rem;
+  font-size: 0.1875rem;
+}
+.hldlist .hldimgs li p {
+  width: 100%;
+  font-size: 0.25rem;
+  padding-bottom: 0.125rem;
+}
+.more {
+  width: 100%;
+  height: 0.46875rem;
+  line-height: 0.46875rem;
+  text-align: center;
+  margin-bottom: 0.3125rem;
+  background-color: #fff;
+  font-size: 0.1875rem;
+  border-bottom: 0.015625rem solid #dddddd;
+}
+.login {
+  width: 100%;
+  height: 0.46875rem;
+  background: #D3079E;
+}
+.login li {
+  float: left;
+  color: #fff;
+  font-size: 0.1875rem;
+  padding-left: 0.234375rem;
+}
+.login li:last-child {
+  float: right;
+  padding-right: 0.15625rem;
+}
+.login li a {
+  display: block;
+  color: #fff;
+}
